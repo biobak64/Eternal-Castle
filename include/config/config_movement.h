@@ -26,12 +26,12 @@
  * - Precise turning control.
  * - Prevents falling from the edges.
  */
-// #define BETTER_HANGING
+#define BETTER_HANGING
 
 /**
  * Change the movement speed when hanging from a ceiling (the vanilla value is 4.0f, has no effect if BETTER_HANGING is enabled).
  */
-#define HANGING_SPEED 4.0f
+// #define HANGING_SPEED 4.0f
 
 /**
  * Prevents Mario from falling asleep while idle.
@@ -41,7 +41,7 @@
 /**
  * Disables fall damage.
  */
-#define NO_FALL_DAMAGE
+// #define NO_FALL_DAMAGE
 
 /**
  * Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage).
@@ -81,7 +81,7 @@
 /**
  * If A and Z are pressed on the same frame while running, Mario will long jump instead of ground pound.
  */
-// #define EASIER_LONG_JUMPS
+#define EASIER_LONG_JUMPS
 
 /**
  * Enables the ability to hold Z while twirling to descend faster.
@@ -96,7 +96,7 @@
 /**
  * Allows Mario to jump kick on steep surfaces that are set to be non slippery, instead of being forced to dive.
  */
-#define JUMP_KICK_FIX
+// #define JUMP_KICK_FIX
 
 /**
  * Allows Mario to grab hangable ceilings from any state.
@@ -111,7 +111,7 @@
 /**
  * Makes Mario unable to ledge grab steep slopes to prevent false ledge grabs.
  */
-#define DONT_LEDGE_GRAB_STEEP_SLOPES
+// #define DONT_LEDGE_GRAB_STEEP_SLOPES
 
 /**
  * Buffers an A input if you jump off a slope during the landing lag
@@ -139,5 +139,5 @@
 /**
  * Inertia defines; allow Mario to preserve his momemtum when leaving moving platforms.
  */
-#define MARIO_INERTIA_UPWARD
+// #define MARIO_INERTIA_UPWARD
 // #define MARIO_INERTIA_LATERAL

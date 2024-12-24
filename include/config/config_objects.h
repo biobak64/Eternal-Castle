@@ -42,7 +42,7 @@
  * Floombas! These fellas sport custom behaviors (bhvFloomba, bhvFloombaTripletSpawner) and of course the iconic Floomba texture.
  * Also supports macros (macro_floomba, macro_huge_floomba, macro_tiny_floomba, macro_floomba_triplet_spawner, macro_floomba_quintuplet_spawner).
  */
-#define FLOOMBAS
+// #define FLOOMBAS
 
 /**************
  * -- HOOT --
@@ -83,7 +83,7 @@
 /**
  * Collecting a Power Star will fully heal Mario.
  */
-#define POWER_STARS_HEAL
+// #define POWER_STARS_HEAL
 
 /**********************
  * -- 1-UP MUSHROOM --
@@ -92,7 +92,7 @@
 /**
  * Collecting a 1-Up Mushroom will fully heal Mario.
  */
-#define MUSHROOMS_HEAL
+// #define MUSHROOMS_HEAL
 
 /***************************
  * -- PLATFORM ON TRACK --
